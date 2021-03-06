@@ -109,26 +109,26 @@ function confirmUserWantsSpecialCharacter() {
 
 // Random Index for lower case letters
 function getRandomLowerCaseChar() {
-  randomIndex = Math.round(Math.random() * 27);
+  randomIndex = Math.floor(Math.random() * 27);
   return lowerCase[randomIndex];
 }
 
 // Random Index for upper case letters
 function getRandomUpperCaseChar() {
-  randomIndex = Math.round(Math.random() * 27);
+  randomIndex = Math.floor(Math.random() * 27);
   return upperCase[randomIndex];
 }
 
 // Random Index for numbers
 function getRandomNumber() {
-  randomIndex = Math.round(Math.random() * 9);
+  randomIndex = Math.floor(Math.random() * 9);
   return numericOptions[randomIndex];
 }
 
 // Random Index for special Characters
 function getRandomSpecialCharacter() {
   var sCharLength = specialCharacters.length - 1;
-  randomIndex = Math.round(Math.random() * sCharLength);
+  randomIndex = Math.floor(Math.random() * sCharLength);
   return specialCharacters[randomIndex];
 }
 
