@@ -140,6 +140,11 @@ function generatePassword() {
   return result.join('');
 }
 
+// Random Index for lower case letters
+function getRandomLowerCaseChar() {
+  randomIndex = Math.round(Math.random() * 27);
+  return lowerCase[randomIndex];
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
