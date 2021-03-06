@@ -108,5 +108,38 @@ function confirmUserWantsSpecialCharacter() {
   wantSpecialCharacter = window.confirm('Do you want special characters in your password');
 }
 
+// Generate password
+
+function generatePassword() {
+  var result = [];
+  var i = 0;
+  while (i < passwordLength) {
+
+    if (wantsLowerCase) {
+      result.push(getRandomLowerCaseChar());
+      i++;
+    }
+
+    if (wantsUpperCase) {
+      result.push(getRandomUpperCaseChar());
+      i++;
+    }
+
+    if (wantNumbers) {
+      result.push(getRandomNumber());
+      i++;
+    }
+
+    if (wantSpecialCharacter) {
+      result.push(getRandomSpecialCharacter());
+      i++;
+    }
+    
+  }
+
+  return result.join('');
+}
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
