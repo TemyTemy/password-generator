@@ -64,7 +64,7 @@ function writePassword() {
   if (wantsLowerCase || wantsUpperCase || wantNumbers || wantSpecialCharacter) {
     var password = generatePassword();
     passwordText.value = password;
-  } else{
+  }  else{
     alert('You need to choose at least one character type for your password');
   }
 
@@ -77,11 +77,11 @@ generateBtn.addEventListener("click", writePassword);
 // Prompt for number of characters
 function getNumberOfCharacter() {
 
-  var howLongIsPassword = window.prompt('How long do you want the password to be ? - Length should be between 8 and 128 characters', 'enter password length');
+  var howLongIsPassword = window.prompt('How long do you want the password to be ? - Length should be between 8 and 128 characters', 8);
   if (howLongIsPassword < 8 || howLongIsPassword > 128) {
     alert('Password should be between 8 and 128 characters long');
     return false;
-  } else {
+  }   else {
     passwordLength = howLongIsPassword;
     return true;
   }
