@@ -158,5 +158,12 @@ function getRandomNumber() {
   return numericOptions[randomIndex];
 }
 
+// Random Index for special Characters
+function getRandomSpecialCharacter() {
+  var sCharLength = specialCharacters.length - 1;
+  randomIndex = Math.round(Math.random() * sCharLength);
+  return specialCharacters[randomIndex];
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
