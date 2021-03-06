@@ -88,19 +88,10 @@ function getNumberOfCharacter() {
   }
 }
 
-// Prompt for number of characters
-function getNumberOfCharacter() {
-
-  var howLongIsPassword = window.prompt('How long do you want the password to be ? - Length should be between 8 and 128 characters', 8);
-  if (howLongIsPassword < 8 || howLongIsPassword > 128) {
-    alert('Password should be between 8 and 128 characters long');
-    return false;
-  } else {
-    passwordLength = howLongIsPassword;
-    return true;
-  }
+// Prompt for if user wants lower case letters
+function confirmIfUserWantsLowerCase() {
+  wantsLowerCase = window.confirm('Do you want lower case letters in your password');
 }
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
