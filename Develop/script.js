@@ -103,5 +103,10 @@ function confirmIfUserWantsNumers() {
   wantNumbers = window.confirm('Do you want numbers in your password');
 }
 
+// Prompt for if user wants special characters
+function confirmUserWantsSpecialCharacter() {
+  wantSpecialCharacter = window.confirm('Do you want special characters in your password');
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
