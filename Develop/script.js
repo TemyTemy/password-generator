@@ -152,5 +152,11 @@ function getRandomUpperCaseChar() {
   return upperCase[randomIndex];
 }
 
+// Random Index for numbers
+function getRandomNumber() {
+  randomIndex = Math.round(Math.random() * 9);
+  return numericOptions[randomIndex];
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
