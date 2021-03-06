@@ -93,5 +93,10 @@ function confirmIfUserWantsLowerCase() {
   wantsLowerCase = window.confirm('Do you want lower case letters in your password');
 }
 
+// Prompt for if user wants upper case letters
+function confirmIfUserWantsUpperCase() {
+  wantsUpperCase = window.confirm('Do you want upper case letters in your password');
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
