@@ -146,5 +146,11 @@ function getRandomLowerCaseChar() {
   return lowerCase[randomIndex];
 }
 
+// Random Index for upper case letters
+function getRandomUpperCaseChar() {
+  randomIndex = Math.round(Math.random() * 27);
+  return upperCase[randomIndex];
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
