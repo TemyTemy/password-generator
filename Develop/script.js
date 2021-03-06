@@ -99,7 +99,7 @@ function confirmIfUserWantsUpperCase() {
 }
 
 // Prompt for if user wants numbers in password
-function confirmIfUserWantsNumers() {
+function confirmIfUserWantsNumbers() {
   wantNumbers = window.confirm('Do you want numbers in your password');
 }
 
@@ -107,6 +107,32 @@ function confirmIfUserWantsNumers() {
 function confirmUserWantsSpecialCharacter() {
   wantSpecialCharacter = window.confirm('Do you want special characters in your password');
 }
+
+// Random Index for lower case letters
+function getRandomLowerCaseChar() {
+  randomIndex = Math.round(Math.random() * 27);
+  return lowerCase[randomIndex];
+}
+
+// Random Index for upper case letters
+function getRandomUpperCaseChar() {
+  randomIndex = Math.round(Math.random() * 27);
+  return upperCase[randomIndex];
+}
+
+// Random Index for numbers
+function getRandomNumber() {
+  randomIndex = Math.round(Math.random() * 9);
+  return numericOptions[randomIndex];
+}
+
+// Random Index for special Characters
+function getRandomSpecialCharacter() {
+  var sCharLength = specialCharacters.length - 1;
+  randomIndex = Math.round(Math.random() * sCharLength);
+  return specialCharacters[randomIndex];
+}
+
 
 // Generate password
 
@@ -140,30 +166,7 @@ function generatePassword() {
   return result.join('');
 }
 
-// Random Index for lower case letters
-function getRandomLowerCaseChar() {
-  randomIndex = Math.round(Math.random() * 27);
-  return lowerCase[randomIndex];
-}
 
-// Random Index for upper case letters
-function getRandomUpperCaseChar() {
-  randomIndex = Math.round(Math.random() * 27);
-  return upperCase[randomIndex];
-}
-
-// Random Index for numbers
-function getRandomNumber() {
-  randomIndex = Math.round(Math.random() * 9);
-  return numericOptions[randomIndex];
-}
-
-// Random Index for special Characters
-function getRandomSpecialCharacter() {
-  var sCharLength = specialCharacters.length - 1;
-  randomIndex = Math.round(Math.random() * sCharLength);
-  return specialCharacters[randomIndex];
-}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
