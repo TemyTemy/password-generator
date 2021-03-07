@@ -10,6 +10,8 @@ An application that generates random passwords based on criteria that users have
 
   ![alt text](https://github.com/TemyTemy/my-portfolio/blob/main/assets/images/screenshot-1.PNG)
 
+
+
 alt text
 
 Image 2 - Default Screen Size
