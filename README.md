@@ -4,6 +4,21 @@ An application that generates random passwords based on criteria that users have
 
 **Technologies Used: HTML5 , CSS3 and JavaScript**
 
+
+## Features
+
+- When the application opens, the user interface will be displayed with a button to generate the password.
+- Clicking on the password button will display a prompt for the password length.
+- User will enter password length.
+- An error alert will be displayed if the user enters password length that is more or less than the required length.
+- An error alert will be displayed if the user enters invalid characters or blank input.
+- After choosing the right password length, user will be prompted to choose from other four criteria based on lowercase letters, uppercase letters,numbers and/or special characters.
+- User is required to choose from at least one criteria.
+- When all prompts are answered, the generated password is displayed on the page.
+- The application is responsive and can be viewed on different screens and devices.
+
+
+
 ## Screenshots
 
 **Image 1**  
@@ -76,20 +91,6 @@ An application that generates random passwords based on criteria that users have
 
 
 
-
-
-
-## Features
-
-- When the application opens, the user interface will be displayed with a button to generate the password.
-- Clicking on the password button will display a prompt for the password length.
-- User will enter password length.
-- An error alert will be displayed if the user enters password length that is more or less than the required length.
-- An error alert will be displayed if the user enters invalid characters or blank input.
-- After choosing the right password length, user will be prompted to choose from other four criteria based on lowercase letters, uppercase letters,numbers and/or special characters.
-- User is required to choose from at least one criteria.
-- When all prompts are answered, the generated password is displayed on the page.
-- The application is responsive and can be viewed on different screens and devices.
 
 
 ## Reference
