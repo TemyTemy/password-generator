@@ -15,34 +15,41 @@ An application that generates random passwords based on criteria that users have
 
 
 **Image 2**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot2.PNG)
 
 
 
 **Image 3**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot3.PNG)
 
 
 
 **Image 4**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot4.PNG)
 
 
 
 **Image 5**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot5.PNG)
 
 
 
 **Image 6**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot6.PNG)
 
 
 **Image 7**
+
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot7.PNG)
 
 
 ## Features
+
 - When the application opens, the user interface will be displayed with a button to generate the password.
 - Clicking on the password button will display a prompt for the password length.
 - User will enter password length.
@@ -54,9 +61,11 @@ An application that generates random passwords based on criteria that users have
 
 
 ## Reference
+
 The list of special characters were taken from https://www.owasp.org/index.php/Password_special_characters
 
 ## Links on Github
+
 - The source code repository is available at this link: https://github.com/TemyTemy/password-generator
 - The home page to the website is available at this link: https://temytemy.github.io/password-generator/
 
