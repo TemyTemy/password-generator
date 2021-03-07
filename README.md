@@ -2,7 +2,9 @@
 An application that generates random passwords based on criteria that users have selected.
 
 
+
 **Technologies Used: HTML5 , CSS3 and JavaScript**
+
 
 
 ## Features
@@ -96,6 +98,7 @@ An application that generates random passwords based on criteria that users have
 ## Reference
 
 The list of special characters were taken from https://www.owasp.org/index.php/Password_special_characters
+
 
 ## Links on Github
 
