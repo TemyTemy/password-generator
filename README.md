@@ -6,38 +6,38 @@ An application that generates random passwords based on criteria that users have
 
 ## Screenshots
 
-**Image 1 **  
+**Image 1**  
 
   ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot1.PNG)
 
 
 
-alt text
 
-**Image 2 **
+
+**Image 2**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot2.PNG)
 
-alt text
 
-**Image 3 **
+
+**Image 3**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot3.PNG)
 
-alt text
+
 
 **Image 4**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot4.PNG)
 
-alt text
+
 
 **Image 5**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot5.PNG)
 
-alt text
+
 
 **Image 6**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot6.PNG)
 
-alt text
+
 **Image 7**
 ![alt text](https://github.com/TemyTemy/password-generator/blob/main/Assets/screenshot7.PNG)
 
