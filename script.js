@@ -49,7 +49,7 @@ function writePassword() {
   // var passwordText = document.querySelector("#password");
 
   // Initialize password text area
-  //passwordText.value = '';
+  passwordText.value = '';
 
   // passwordText.value = password;
   if (!getNumberOfCharacter()) {
@@ -63,8 +63,8 @@ function writePassword() {
 
   if (wantsLowerCase || wantsUpperCase || wantNumbers || wantSpecialCharacter) {
     var password = generatePassword();
-    //passwordText.value = password;
-    alert(password);
+    passwordText.value = password;
+    
   }  else{
     alert('You need to choose at least one character type for your password');
   }
