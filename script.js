@@ -79,7 +79,7 @@ generateBtn.addEventListener("click", writePassword);
 function getNumberOfCharacter() {
 
   var howLongIsPassword = window.prompt('How long do you want the password to be ? - Length should be between 8 and 128 characters', 8);
-  if (isNaN(howLongIsPassword)) {
+  if (isNaN(howLongIsPassword) || howLongIsPassword.trim() === '') {
     alert('Please enter a valid number as password length');
     return false;
   }
