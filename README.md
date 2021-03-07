@@ -85,7 +85,7 @@ An application that generates random passwords based on criteria that users have
 - Clicking on the password button will display a prompt for the password length.
 - User will enter password length.
 - An error alert will be displayed if the user enters password length that is more or less than the required length.
-- An error allert will be displayed if the user enters invalid characters or blank input.
+- An error alert will be displayed if the user enters invalid characters or blank input.
 - After choosing the right password length, user will be prompted to choose from other four criteria based on lowercase letters, uppercase letters,numbers and/or special characters.
 - User is required to choose from at least one criteria.
 - When all prompts are answered, the generated password is displayed on the page.
