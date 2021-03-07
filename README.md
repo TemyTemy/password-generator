@@ -1,12 +1,14 @@
 # Password Generator
-An appliction that generates random passwords based on criteria that users have selected.
+An application that generates random passwords based on criteria that users have selected.
 
 
 **Technologies Used: HTML5 , CSS3 and JavaScript**
 
-
 ## Screenshots
-Image 1 - Default Screen Size
+
+**Image 1 - Default Screen Size**  
+
+  ![alt text](https://github.com/TemyTemy/my-portfolio/blob/main/assets/images/screenshot-1.PNG)
 
 alt text
 
@@ -45,6 +47,6 @@ alt text
 The list of special characters were taken from https://www.owasp.org/index.php/Password_special_characters
 
 ## Links on Github
-The source code repository is available at this link: https://github.com/TemyTemy/password-generator
-The home page to the website is available at this link: https://temytemy.github.io/password-generator/
+- The source code repository is available at this link: https://github.com/TemyTemy/password-generator
+- The home page to the website is available at this link: https://temytemy.github.io/password-generator/
 
